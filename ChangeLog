@@ -1,3 +1,8 @@
+2015-03-15  David M Moore     <david@vandermore.com>
+
+		* Begun conversion to AngularJS, and reskinning the app, in preparation for a mobile version.
+
+
 2014-08-24  Kyle W T Sherman  <kylewsherman@gmail.com>
 
         * powerhouse.js, powerhouse-data.js, powerhouse-version.js:  Fixed an

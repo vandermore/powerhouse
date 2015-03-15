@@ -20,14 +20,17 @@ VersionUpdate = function(id, version, funct) {
     this.funct = funct;
     this.code = function() {
         return numToUrlCode(this.id);
-    }
+    };
+
     this.equals = function(obj) {
         return (typeof(this) == typeof(obj) && this.id == obj.id);
-    }
+    };
+
     this.toString = function() {
         return '[id='+this.id+', version=\''+this.version+'\', funct=\''+this.funct+'\', code='+this.code()+']';
-    }
-}
+    };
+
+};
 
 // version update data
 // function must handle the following values for 'thing': pos, i, inc, code1, code2, code3, code4, archetype, superStat, innateTalent, talent, travelPower, framework, power, mask, specializationTree, specialization
